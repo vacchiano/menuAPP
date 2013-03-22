@@ -1,0 +1,138 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title>V's Sandwiches</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<style>
+	img.fullscreen {
+		max-height: 100%;
+		max-width: 100%;
+		}
+</style>
+</head>
+<body>
+<div data-role="page" id="home">
+<header data-role="header">
+<h1>V's Sandwiches</h1>
+</header>
+<article data-role="content">
+<ul data-role="listview" data-filter="true">
+	<li>
+		<a href="#turkey">
+		<h1>Turkey Tower</h1>
+		<img src="turkey.jpeg" alt="turkey" />
+		<p>Delicious freshly cut turkey with cheese, tomato and lettuce on french bread.</p>
+		</a>
+	</li>
+	<li>
+		<a href="#ham">
+		<h1>Hamonator</h1>
+		<img src="ham.jpeg" alt="ham" />
+		<p>Huge stack of sliced ham, bacon, provolone cheese, tomatoes, and lettuce.</p>
+		</a>
+	</li>
+	<li>
+		<a href="#roastbeef">
+		<h1>Royal Roast Beef</h1>
+		<img src="beef.jpeg" alt="Roast Beef" />
+		<p>Mounds of thinly sliced beef with melted cheese and veggies, truly royal.</p>
+		</a>
+	</li>
+</ul>
+</article>
+<footer data-role="footer" data-position="fixed">
+<nav data-role="footer">
+<h5 style="text-align:center:">Vacchiano inc.</h5>
+</nav>
+</footer>
+</div><!-- Page1 --!>
+
+<div data-role="page" id="turkey">
+<header data-role="header">
+<a href="#home" data-icon="home">Back</a>
+<h1>Turkey Tower</h1>
+</header>
+<div class="ui-grid-b">
+<div class="ui-block-a">
+</div>
+<div class="ui-block-b">
+<img src="turkey.jpeg" class="fullscreen" alt="turkey" />
+</div>
+<div class="ui-block-c">
+</div>
+</div>
+<p>
+This sandwich is a mouthful.  It is packed with fresh cut turkey, provolone cheese, tomatoes,
+lettuce, and honey mustard.<br/>
+Full sandwich: $5.99<br/>
+1/2 sandwich:  $2.99
+
+</p>
+<footer data-role="footer" data-position="fixed">
+<nav data-role="footer">
+<h5 style="text-align:center:">Vacchiano inc.</h5>
+</nav>
+</footer>
+</div><!-- Pageturkey --!>
+
+<div data-role="page" id="ham">
+<header data-role="header">
+<a href="#home" data-icon="home">Back</a>
+<h1>Hamonator</h1>
+</header>
+<div class="ui-grid-b">
+<div class="ui-block-a">
+</div>
+<div class="ui-block-b">
+<img src="ham.jpeg" class="fullscreen" alt="ham" />
+</div>
+<div class="ui-block-c">
+</div>
+</div>
+<p>
+This sandwich is a mouthful.  It is packed with freshly sliced hame, bacon, provolone cheese,
+ tomatoes, lettuce, and honey mustard.<br/>
+Full sandwich: $5.99<br/>
+1/2 sandwich:  $2.99
+
+</p>
+<footer data-role="footer" data-position="fixed">
+<nav data-role="footer">
+<h5 style="text-align:center:">Vacchiano inc.</h5>
+</nav>
+</footer>
+</div><!-- Pageham --!>
+
+<div data-role="page" id="roastbeef">
+<header data-role="header">
+<a href="#home" data-icon="home">Back</a>
+<h1>Royal Roast Beef</h1>
+</header>
+<div class="ui-grid-b">
+<div class="ui-block-a">
+</div>
+<div class="ui-block-b">
+<img src="beef.jpeg" class="fullscreen" alt="Roast Beef" />
+</div>
+<div class="ui-block-c">
+</div>
+</div>
+<p>
+This sandwich is a mouthful.  Layers of thinly sliced roast beef with lettuce tomatoes 
+and melted cheese.<br/>
+Full sandwich: $5.99<br/>
+1/2 sandwich:  $2.99
+
+</p>
+<footer data-role="footer" data-position="fixed">
+<nav data-role="footer">
+<h5 style="text-align:center:">Vacchiano inc.</h5>
+</nav>
+</footer>
+</div><!-- PageRoastBeef --!>
+
+</body>
+</html>
